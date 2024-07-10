@@ -1,0 +1,22 @@
+{
+  "name": "receipt-processor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker run -p 8080:8080 receipt-processor",
+    "build": "docker build -t receipt-processor .",
+    "start-server": "node index.js",
+    "test": "jest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
