@@ -14,7 +14,7 @@ This project implements a web service for processing receipts and calculating po
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/AsthaModi/OA-fetch-process-receipt.git
     cd receipt-processor
     ```
 
